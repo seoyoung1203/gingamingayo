@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    {% for question in questions %}
+    <h3>{{question.title}}</h3>
+    {% endfor %}
+{% endblock %}
