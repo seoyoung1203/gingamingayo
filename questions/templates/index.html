@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 
 {% block body %}
+    <h1>작성글입니다 !</h1>
     {% for question in questions %}
+    <hr>
     <h3>{{question.title}}</h3>
     {% endfor %}
 {% endblock %}
